@@ -1,0 +1,11 @@
+{
+  "name": "workspace-a",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "author": "Colin",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  }
+}
