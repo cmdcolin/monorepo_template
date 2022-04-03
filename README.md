@@ -8,7 +8,7 @@ Have various packages e.g.
 
 - `workspace-a` - contains react components, depends on `workspace-b`
 - `workspace-b` - contains react components, no dependencies
-- `app` - a `create-react-app` instance, renders a reactcomponent from `workspace-b`
+- `app` - a `create-react-app` instance, renders a react component from `workspace-a`
 
 How can I make it so that when I have `yarn start` in the app directory, then changes to workspace-a or workspace-b will be auto-updated on the webpage?
 
