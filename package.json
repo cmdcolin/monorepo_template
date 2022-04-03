@@ -10,6 +10,7 @@
   },
   "workspaces": [
     "workspace-a",
-    "workspace-b"
+    "workspace-b",
+    "app"
   ]
 }

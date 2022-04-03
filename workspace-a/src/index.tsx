@@ -1,4 +1,5 @@
 import React from 'react'
-export default function Hello() {
-  return <div>Wow world</div>
+
+export default function Component({ name }: { name: string }) {
+  return <div>Bad {name}</div>
 }
