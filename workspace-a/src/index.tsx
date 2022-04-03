@@ -1,5 +1,9 @@
 import React from 'react'
-
-export default function Component({ name }: { name: string }) {
-  return <div>Bad {name}</div>
+import Component from 'workspace-a'
+export default function Hello() {
+  return (
+    <div>
+      Big wow world <Component name="Colin" />
+    </div>
+  )
 }

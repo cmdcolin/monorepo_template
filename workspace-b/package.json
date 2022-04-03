@@ -6,12 +6,6 @@
   "author": "Colin",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
-  },
-  "dependencies": {
-    "workspace-a": "^1.0.0"
-  },
-  "peerDependencies": {
-    "react": ">=16.8.0"
+    "build": "tsc -b"
   }
 }
