@@ -1,9 +1,9 @@
 import React from 'react'
-import Component from 'workspace-a'
+import Component from 'workspace-b'
 export default function Hello() {
   return (
     <div>
-      Big wow world <Component name="Colin" />
+      Hello <Component name="Colin" />
     </div>
   )
 }

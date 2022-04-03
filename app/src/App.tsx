@@ -1,5 +1,5 @@
 import React from 'react'
-import Hello from 'workspace-b'
+import Hello from 'workspace-a'
 
 console.log({ Hello })
 

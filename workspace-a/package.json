@@ -6,7 +6,8 @@
   "author": "Colin",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -b",
+    "test": "jest"
   },
   "dependencies": {
     "workspace-b": "^1.0.0"

@@ -11,5 +11,7 @@
     "composite": true,
     "incremental": true,
     "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo"
-  }
+  },
+
+  "references": [{ "path": "../workspace-b" }]
 }
