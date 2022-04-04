@@ -2,9 +2,7 @@
 
 This is a work in progress on creating a monorepo template
 
-My goal is:
-
-Have various packages e.g.
+My goal is to create a bare bones monorepo setup that has various packages and "apps" e.g.
 
 - `workspace-a` - contains react components, depends on `workspace-b`
 - `workspace-b` - contains react components, no dependencies
