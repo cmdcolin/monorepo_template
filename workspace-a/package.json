@@ -6,8 +6,9 @@
   "author": "Colin",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -b",
-    "test": "jest"
+    "build": "echo HIIII && tsc --watch",
+    "test": "jest",
+    "compare-hash": "node ../../test.js"
   },
   "dependencies": {
     "workspace-b": "^1.0.0"

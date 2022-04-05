@@ -3,7 +3,7 @@ import Component from 'workspace-b'
 export default function Hello() {
   return (
     <div>
-      Hello <Component name="Colin" />
+      Hello <Component name="Colin" /> wowwwwwwwwwwwwww
     </div>
   )
 }

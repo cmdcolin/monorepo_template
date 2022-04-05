@@ -12,5 +12,9 @@
     "workspace-a",
     "workspace-b",
     "app"
-  ]
+  ],
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "folder-hash": "^4.0.2"
+  }
 }

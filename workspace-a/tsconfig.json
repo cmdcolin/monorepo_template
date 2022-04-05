@@ -7,11 +7,6 @@
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
-    "rootDir": "./src",
-    "composite": true,
-    "incremental": true,
-    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo"
-  },
-
-  "references": [{ "path": "../workspace-b" }]
+    "rootDir": "./src"
+  }
 }

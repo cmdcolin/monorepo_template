@@ -6,7 +6,8 @@
   "author": "Colin",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -b",
-    "test": "jest"
+    "build": "tsc",
+    "test": "jest",
+    "hash": "folder-hash src"
   }
 }
