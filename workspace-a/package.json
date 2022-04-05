@@ -6,7 +6,7 @@
   "author": "Colin",
   "license": "MIT",
   "scripts": {
-    "build": "echo HIIII && tsc --watch",
+    "build": "echo HIIII && tsc",
     "test": "jest",
     "compare-hash": "node ../../test.js"
   },

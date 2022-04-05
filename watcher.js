@@ -35,6 +35,8 @@ async function launchBuilder(arg) {
         console.log('Build succeeded')
       }
     })
+  } else {
+    console.log('hash same')
   }
 }
 
@@ -45,6 +47,9 @@ chokidar
     ignoreInitial: true,
   })
   .on('all', (event, path) => {
-    console.log({ path })
-    launchBuilder('workspace-a')
+    if (path.startsWith('workspace-a')) {
+      launchBuilder('workspace-a')
+    } else if (path.startsWith('workspace-b')) {
+      launchBuilder('workspace-b')
+    }
   })
