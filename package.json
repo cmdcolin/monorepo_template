@@ -6,11 +6,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "yarn workspaces run test"
-  },
-  "workspaces": [
-    "workspace-a",
-    "workspace-b",
-    "app"
-  ]
+    "dev": "pnpm --parallel -r dev",
+    "build": "pnpm -r build",
+    "test": "pnpm --parallel -r test",
+    "clean": "pnpm -r exec -- rm -rf node_modules dist"
+  }
 }
